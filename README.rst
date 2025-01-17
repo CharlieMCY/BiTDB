@@ -69,3 +69,19 @@ It should be no errors, then all is OK.
 
 .. _linaro: https://releases.linaro.org/components/toolchain/binaries/
 
+Publication
+-------
+Our paper BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems have been published in the journal IEEE Transactions on Knowledge and Data Engineering.
+
+.. code::
+
+	@ARTICLE{10477533,
+  		author={Ma, Chengyan and Lu, Di and Lv, Chaoyue and Xi, Ning and Jiang, Xiaohong and Shen, Yulong and Ma, Jianfeng},
+  		journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  		title={BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems}, 
+  		year={2024},
+  		volume={36},
+  		number={9},
+  		pages={4472-4485},
+  		doi={10.1109/TKDE.2024.3380367}
+	}
