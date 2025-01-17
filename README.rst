@@ -71,7 +71,7 @@ It should be no errors, then all is OK.
 
 Publication
 -------
-Our paper BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems have been published in the journal IEEE Transactions on Knowledge and Data Engineering.
+Our paper **BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems** have been published in the journal **IEEE Transactions on Knowledge and Data Engineering**.
 
 .. code::
 
