@@ -26,6 +26,16 @@ Then:
 	$ make patch # this will patch linux kernel & ATF, if you have done before, skip this.
 	$ make
 
+If you meet the follow issue:
+
+.. code:: bash
+
+	/usr/bin/ld: scripts/dtc/dtc-parser.tab.o:(.bss+0x10): multiple definition of `yylloc'; scripts/dtc/dtc-lexer.lex.o:(.bss+0x0): first defined here
+	collect2: error: ld returned 1 exit status
+
+Please edit the file /linux/scripts/dtc/dtc-lexer-lex.c and /u-boot/scripts/dtc/dtc-lexer-lex.c Find the line 'YYLTYPE yylloc' and change it to 'extern YYLTYPE yylloc'.
+(Reference: https://lkml.org/lkml/2020/4/1/1206 and https://github.com/BPI-SINOVOIP/BPI-M4-bsp/issues/4)
+
 When success, it should seem as:
 
 .. code:: bash
